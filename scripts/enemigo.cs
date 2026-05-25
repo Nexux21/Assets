@@ -27,7 +27,7 @@ public class enemigo : MonoBehaviour
         {
             if (Vector3.Distance(target.transform.position, transform.position) < radiusAttack)
             {
-                Debug.Log("atacando >;l ");
+                Debug.Log("atacando >:l ");
 
             }
             else
