@@ -2,15 +2,21 @@ using UnityEngine;
 
 public class enemigo : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public GameObject target;
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        FollowTarget();
+    }
+
+    public void FollowTarget()
+    {
+        Vector3 targetPosition = target.transform.position;
+
     }
 }
